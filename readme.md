@@ -1,7 +1,5 @@
 # My ToDo App
 
-![Project Screenshot](./screenshot.png)
-
 ## Overview
 
 This is a simple ToDo app project that I, Nour, developed as part of my self-taught journey into frontend development. The app allows users to add, delete, and mark tasks as completed.
