@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todo list project</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- create modal -->
+    <dialog data-modal>
+      <div class="modal">
+        <h3 class="m-block">please first enter something......</h3>
+        <button data-modal-close class="btn">ok</button>
+      </div>
+    </dialog>
+    <div class="container">
+      <section class="todo">
+        <h1 class="form-title">todo app in javascript</h1>
+        <form>
+          <input
+            type="text"
+            name="todoType"
+            id="todoType"
+            placeholder="add todo"
+          />
+          <button class="btn" id="btn">add</button>
+        </form>
+
+        <ul class="lists" id="todo"></ul>
+
+        <hr />
+        <div class="counter-container">
+          <p><span id="tasks">0</span>task</p>
+
+          <button class="delete" id="delete">delete all</button>
+        </div>
+      </section>
+      <footer>
+        <div class="footer">
+          <div class="made-by">
+            <a href="#">coded by nour salepan </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
